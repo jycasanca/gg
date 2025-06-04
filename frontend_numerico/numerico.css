@@ -1,0 +1,36 @@
+#tabla {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tabla th, #tabla td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  #tabla tr:nth-child(even) {
+    background-color: #466248;
+  }
+  
+  #tabla th {
+    background-color: #053b07;
+    color: white;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1a1a1a, #0d0d0d); /* Fondo oscuro con gradiente */
+    color: #ffffff; /* Texto blanco */
+}
+#button {
+    background-color: rgb(43, 43, 91);
+    color: white;        /* para que el texto sea visible */
+    border: none;        /* opcional: quita el borde por defecto */
+    padding: 10px 20px;  /* opcional: da algo de espacio interno */
+    border-radius: 5px;  /* opcional: bordes redondeados */
+    cursor: pointer;     /* cambia el cursor al pasar por encima */
+  }
+
+  #button:hover {
+    background-color: rgb(44, 44, 90); /* cambia a un azul más oscuro al pasar el mouse */
+  }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Método de Regula Falsi</title>
+  <link rel="stylesheet" href="numerico.css">
+</head>
+<body>
+  <h1>Método de Regular-Falsi</h1>
+  <div>
+    <label for="a">Número menor (a):</label>
+    <input type="number" id="a" value="1">
+  </div>
+  <p></p>
+  <div>
+    <label for="b">Número mayor (b):</label>
+    <input type="number" id="b" value="2">
+  </div>
+  <p></p>
+  <div>
+    <label for="n">Número a la que se saca raíz (n):</label>
+    <input type="number" id="n" value="2">
+  </div>
+  <p></p>
+  <div>
+    <label for="error">Error:</label>
+    <input type="number" id="error" value="0.001">
+  </div>
+  <p></p>
+  <button onclick="calcular()" id="button">Calcular</button>
+  <p></p>
+  <table id="tabla">
+    <thead>
+      <tr>
+        <th>Iteración</th>
+        <th>a</th>
+        <th>b</th>
+        <th>c</th>
+        <th>F(a)</th>
+        <th>F(b)</th>
+        <th>F(c)</th>
+        <th>E</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <script src="numerico.js"></script>
+</body>
+</html>
